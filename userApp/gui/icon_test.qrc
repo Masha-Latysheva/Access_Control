@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icon/Dobavit.png</file>
+    <file>icon/dobavit_dop.png</file>
+    <file>icon/doljnost.png</file>
+    <file>icon/dop_info.png</file>
+    <file>icon/excel.png</file>
+    <file>icon/Home.png</file>
+    <file>icon/izmenit_dop.png</file>
+    <file>icon/korzina.png</file>
+    <file>icon/lupa.png</file>
+    <file>icon/Organizatia.png</file>
+    <file>icon/Otchet.png</file>
+    <file>icon/pdf.png</file>
+    <file>icon/phoneSp.png</file>
+    <file>icon/podrazdelSp.png</file>
+    <file>icon/pysk.png</file>
+    <file>icon/Rabotniki.png</file>
+    <file>icon/recycle.png</file>
+    <file>icon/Sbros.png</file>
+    <file>icon/Setting.png</file>
+    <file>icon/settings.png</file>
+    <file>icon/sohranit.png</file>
+    <file>icon/start.png</file>
+    <file>icon/startCh.png</file>
+    <file>icon/uidSp.png</file>
+    <file>icon/userDolSp.png</file>
+    <file>icon/userTipSP.png</file>
+    <file>icon/word.png</file>
+    <file>icon/ydalit.png</file>
+  </qresource>
+</RCC>

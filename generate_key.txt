@@ -1,0 +1,29 @@
+from cryptography.fernet import Fernet
+
+# Генерируем ключ
+def generate_key():
+    key = Fernet.generate_key()
+    return key
+
+# Шифрование текста
+def encrypt_text(text, key):
+    cipher_suite = Fernet(key)
+    encrypted_text = cipher_suite.encrypt(text.encode())
+    return encrypted_text
+
+# Расшифровка текста
+def decrypt_text(encrypted_text, key):
+    cipher_suite = Fernet(key)
+    decrypted_text = cipher_suite.decrypt(encrypted_text).decode()
+    return decrypted_text
+
+# Пример использования
+key = generate_key()  # Генерируем ключ
+
+text = "Hello, world!"  # Исходный текст
+encrypted_text = encrypt_text(text, key)  # Шифруем текст
+decrypted_text = decrypt_text(encrypted_text, key)  # Расшифровываем текст
+
+print("Исходный текст:", text)
+print("Зашифрованный текст:", encrypted_text)
+print("Расшифрованный текст:", decrypted_text)
